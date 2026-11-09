@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#11243b"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Met Homebound"><title>Metropolitan Homebound · v0.8</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#11243b"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Met Homebound"><title>Metropolitan Homebound · v0.9</title>
 <style>
 :root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#142b41;background:#edf3f8}*{box-sizing:border-box}body{margin:0}.shell{max-width:700px;margin:auto;padding:0 14px 42px}.header{background:#11243b;color:#fff;margin:0 -14px 18px;padding:27px 19px 24px}.eyebrow{letter-spacing:2px;font-weight:750;font-size:10px;color:#b6cddd}.header h1{font-size:24px;margin:12px 0 7px}.header p{margin:0;color:#c2d8e8;font-size:14px}.top{display:flex;justify-content:space-between;align-items:center;gap:8px}.tag{background:#294761;color:#e0f0fd;border-radius:30px;font-size:11px;padding:7px 11px}.buttons{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 9px}button{background:#183450;color:white;border:none;border-radius:10px;padding:13px 15px;font-weight:700;font-size:13px;cursor:pointer}button.secondary{background:#dee8f0;color:#1b405e}button:disabled{opacity:.55}button:focus-visible,summary:focus-visible{outline:3px solid #63abdd}.status{font-size:12px;color:#607a8d;margin:10px 0 14px}.card{background:white;border:1px solid #dce6ef;border-radius:16px;padding:17px;margin-bottom:13px;box-shadow:0 1px 4px #132c4211}.hero{background:#f0fbf5;border:2px solid #24805b}.hero.caution{background:#fffaf0;border-color:#ba812b}.hero h2{font-size:23px;line-height:1.2;margin:8px 0}.label{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#597287;font-weight:800}.sub{font-size:13px;color:#506b80;line-height:1.5}.times{display:flex;justify-content:space-between;gap:10px;margin:17px 0}.big{font-size:29px;letter-spacing:-1px;font-weight:800;font-variant-numeric:tabular-nums}.caption{font-size:12px;color:#627a8d}.route{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:14px 0;border-bottom:1px solid #e7edf2}.route:last-child{border-bottom:0}.route strong{display:block;font-size:14px}.route small{display:block;font-size:12px;line-height:1.5;color:#607a8c;margin-top:5px}.right{text-align:right;min-width:95px}.eta{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}.pill{display:inline-block;border-radius:30px;background:#e4eff7;color:#365d79;padding:5px 8px;font-size:11px;font-weight:700;margin:3px 3px 0 0}.alert{background:#fff7e9;border:1px solid #ebd3ab;color:#77501e;border-radius:11px;padding:12px;margin-bottom:13px;font-size:12px;line-height:1.55}.foot{font-size:12px;line-height:1.55;color:#687e8d}.debug{font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-word}details summary{font-weight:700;color:#214b69;cursor:pointer}details{margin:4px 0}label{font-size:13px;color:#415d73;display:block;margin:13px 0}input[type=number]{float:right;width:66px;padding:6px;border:1px solid #b9c9d8;border-radius:7px;font-size:15px}.smallgap{margin-top:8px}.source{color:#39759a;font-size:11px}.muted{opacity:.7}.liveok{background:#e7f7ed;color:#226443}.tracked{font-variant-numeric:tabular-nums}.route .details{font-size:12px;color:#476479;line-height:1.65}.mini{font-size:11px;color:#657c8f} .trackgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:9px 0}.trackgrid>div{background:#f3f7fa;border-radius:9px;padding:9px}.trackgrid b{display:block;font-size:15px} .nowrap{white-space:nowrap}
  .overdue{color:#9f4f29}.rail-wrap{overflow-x:auto;padding:5px 0 0}.rail{position:relative;min-width:550px;height:182px;margin:9px 15px 0}.rail-line{position:absolute;left:5%;right:5%;top:67px;height:5px;background:#b8d0de;border-radius:8px}.rail-stop{position:absolute;top:57px;transform:translateX(-50%);width:84px;text-align:center}.rail-stop i{width:16px;height:16px;display:block;background:white;border:3px solid #386e93;border-radius:50%;margin:0 auto 8px;position:relative;z-index:1}.rail-stop span{font-size:10px;color:#476479;line-height:1.2;display:block}.rail-train{position:absolute;top:25px;transform:translateX(-50%);border:2px solid #183e5b;background:#fff;color:#15364d;border-radius:8px;padding:3px 6px;font-size:10px;font-weight:750;white-space:nowrap;z-index:3;box-shadow:0 2px 4px #172f4633}.rail-train:after{content:'';position:absolute;left:50%;top:100%;height:15px;border-left:2px dotted #386e93}.rail-train:nth-of-type(even){top:3px}.rail-legend{margin:9px 0 0;font-size:11px;color:#647a8d;line-height:1.5}.board-flag{display:inline-block;padding:3px 6px;margin-top:4px;background:#fff1dc;color:#87571a;border-radius:5px;font-size:11px}
 </style></head>
-<body><div class="shell"><header class="header"><div class="top"><span class="eyebrow">METROPOLITAN LINE · HOMEBOUND</span><span class="tag" id="mode">LOADING</span></div><h1>Liverpool Street → Uxbridge</h1><p>Live train tracking + scheduled fallback · v0.8</p></header>
+<body><div class="shell"><header class="header"><div class="top"><span class="eyebrow">METROPOLITAN LINE · HOMEBOUND</span><span class="tag" id="mode">LOADING</span></div><h1>Liverpool Street → Uxbridge</h1><p>Live train tracking + scheduled fallback · v0.9</p></header>
 <div class="buttons"><button id="refresh">↻ Refresh now</button><button id="sample" class="secondary">Show example</button></div><div class="status" id="status">Checking TfL data…</div><div id="messages"></div><main id="main"><div class="card"><p class="sub">Loading departure predictions and official timetables…</p></div></main>
 <div class="card"><details><summary>Journey preferences &amp; transfer rules</summary>
 <label>Maximum Harrow wait (minutes) <input id="maxHarrow" type="number" min="1" max="15" value="5"></label>
@@ -18,7 +18,7 @@
 <p class="foot">Unofficial travel aid. Data: TfL Unified API, Metropolitan line arrivals, vehicle identifiers and timetables. Live tracking matches only identical nonempty vehicle IDs; predictions may be incomplete; official schedules are not proof of a train running. Arrival estimates, platform changes and cancellations can alter the result. Not affiliated with TfL. Refreshes every 30 seconds while open.</p></div>
 <script>
 'use strict';
-const ROOT='https://api.tfl.gov.uk', S={l:'940GZZLULVT',b:'940GZZLUBST',h:'940GZZLUHOH',u:'940GZZLUUXB', f:'940GZZLUFYR',w:'940GZZLUWYP', n:'940GZZLUNHA', r:'940GZZLURYL', e:'940GZZLUEAE',m:'940GZZLURSM',i:'940GZZLUICK',d:'940GZZLUHGD'};
+const ROOT='https://api.tfl.gov.uk', S={l:'940GZZLULVT',b:'940GZZLUBST',h:'940GZZLUHOH',u:'940GZZLUUXB', f:'940GZZLUFYR',w:'940GZZLUWYP', q:'940GZZLUWHW', r:'940GZZLURYL', e:'940GZZLUEAE',m:'940GZZLURSM',c:'940GZZLURSP',i:'940GZZLUICK',d:'940GZZLUHGD'};
 const PAIRS=[['l','b'],['l','h'],['l','u'],['b','u'],['h','u']], KEY=['l','b','h','u'];
 const FIELDS=['maxHarrow','minBaker','minHarrow','directBonus','includeScheduled'];
 const $=id=>document.getElementById(id), ms=m=>60000*m;
@@ -41,9 +41,9 @@ let active=false,state=null,cache=null,cacheAt=0,cacheDay='',demoMode=false;
 const BOARD_BUFFER=ms(0.35), MAX_PRED_AGE=ms(3); // 21 seconds before boarding; stale predictions flagged after 3 min
 const validTime=(x,now)=>x.at>=now+BOARD_BUFFER && x.at<=now+ms(75) && (!x.reportAt||x.reportAt>=now-MAX_PRED_AGE);
 const lateOrStale=(x,now)=>x.at<now+BOARD_BUFFER?'Overdue / too close to board':x.reportAt&&x.reportAt<now-MAX_PRED_AGE?'Prediction may be stale':'';
-for(const f of FIELDS){const v=localStorage.getItem('met_home_v08_'+f)??(f==='directBonus'?'3':(localStorage.getItem('met_home_v07_'+f)??localStorage.getItem('met_home_v06_'+f)??localStorage.getItem('met_home_v05_'+f)));if(v!==null){if(f==='includeScheduled')$(f).checked=v==='true';else $(f).value=v}}
+for(const f of FIELDS){const v=localStorage.getItem('met_home_v09_'+f)??(f==='directBonus'?'3':(localStorage.getItem('met_home_v08_'+f)??localStorage.getItem('met_home_v07_'+f)??localStorage.getItem('met_home_v06_'+f)??localStorage.getItem('met_home_v05_'+f)));if(v!==null){if(f==='includeScheduled')$(f).checked=v==='true';else $(f).value=v}}
 async function get(path,timeout=15000){const ctl=new AbortController(),kill=setTimeout(()=>ctl.abort(),timeout);try{const r=await fetch(ROOT+path,{signal:ctl.signal,cache:'no-store'});if(!r.ok)throw Error('TfL HTTP '+r.status+' '+path);return await r.json()}finally{clearTimeout(kill)}}
-function parse(arr){return (Array.isArray(arr)?arr:[]).filter(x=>x.lineId==='metropolitan'&&x.expectedArrival&&!Number.isNaN(Date.parse(x.expectedArrival))).map(x=>({at:Date.parse(x.expectedArrival),dest:String(x.destinationName||''),vehicle:String(x.vehicleId||'').trim(),platform:String(x.platformName||''),towards:String(x.towards||''),station:String(x.naptanId||''),location:String(x.currentLocation||''),timestamp:String(x.timestamp||''),reportAt:Number.isFinite(Date.parse(x.timestamp))?Date.parse(x.timestamp):null,direction:String(x.direction||'').toLowerCase()})).sort((a,b)=>a.at-b.at)}
+function parse(arr){return (Array.isArray(arr)?arr:[]).filter(x=>x.lineId==='metropolitan'&&x.expectedArrival&&!Number.isNaN(Date.parse(x.expectedArrival))).map(x=>({at:Date.parse(x.expectedArrival),dest:String(x.destinationName||''),vehicle:(v=>/^0+$/.test(v)?'':v)(String(x.vehicleId||'').trim()),platform:String(x.platformName||''),towards:String(x.towards||''),station:String(x.naptanId||''),location:String(x.currentLocation||''),timestamp:String(x.timestamp||''),reportAt:Number.isFinite(Date.parse(x.timestamp))?Date.parse(x.timestamp):null,direction:String(x.direction||'').toLowerCase()})).sort((a,b)=>a.at-b.at)}
 function uniq(arr){const seen=new Set();return arr.filter(x=>{const k=[x.station,x.vehicle||x.dest,x.at].join('/');if(seen.has(k))return false;seen.add(k);return true})}
 function dayFits(name,weekday){const t=String(name||'').toLowerCase().replace(/[–—]/g,'-');if(!t)return true;
  const w=['Monday','Tuesday','Wednesday','Thursday','Friday'];if(/monday\s*(?:-|to)\s*thursday|mon\s*(?:-|to)\s*thu/.test(t))return w.slice(0,4).includes(weekday);
@@ -135,37 +135,52 @@ function itinerary(p){if(!p)return '';
 function routeRow(kind,p){const name={direct:'Direct Uxbridge',baker:'Change at Baker Street',harrow:'Change at Harrow-on-the-Hill'}[kind];
  return `<div class="route"><div><strong>${name}</strong>${p?`<small>${sourcePill(p)} ${kind==='harrow'?'<span class="pill">Fast not verified</span>':''}</small><div class="details">${itinerary(p)}</div>`:'<small>No viable itinerary in available data</small>'}</div><div class="right"><div class="eta">${p?fmt(p.arrive):'—'}</div><small>${p?'estimated Uxbridge':'Unavailable'}</small></div></div>`;}
 
-const RAIL_STOPS=[['l','Liverpool St'],['b','Baker St'],['f','Finchley Rd'],['w','Wembley Pk'],['h','Harrow'],['u','Uxbridge']];
+// Stations are ordered by physical position, but branch-specific stations are not
+// represented as if every Metropolitan service passes them.
+const TRUNK=[['l','Liverpool St'],['b','Baker St'],['f','Finchley Rd'],['w','Wembley Pk'],['h','Harrow']];
+const UX_BRANCH=[['h','Harrow'],['q','West Harrow'],['r','Rayners Lane'],['e','Eastcote'],['m','Ruislip Manor'],['c','Ruislip'],['i','Ickenham'],['d','Hillingdon'],['u','Uxbridge']];
+const RAIL_STOPS=[...TRUNK,...UX_BRANCH.slice(1)];
 function railView(map,now){
  const vehicles=new Map();
- for(const [station,observations] of Object.entries(map)){
-  for(const x of observations){if(!x.vehicle||!west(x)||explicitEast(x)||x.at<now-ms(3)||x.at>now+ms(75))continue;
-   if(!vehicles.has(x.vehicle))vehicles.set(x.vehicle,[]);vehicles.get(x.vehicle).push({...x,stop:station});
-  }
+ for(const [station,observations] of Object.entries(map))for(const x of observations){
+  if(!x.vehicle||!west(x)||explicitEast(x)||x.at<now-ms(3)||x.at>now+ms(75))continue;
+  if(!vehicles.has(x.vehicle))vehicles.set(x.vehicle,[]);
+  vehicles.get(x.vehicle).push({...x,stop:station});
  }
  const rows=[];
- for(const [vehicle,obs] of vehicles){
-  const points=obs.filter(o=>RAIL_STOPS.some(([id])=>id===o.stop)).sort((a,b)=>a.at-b.at);
+ for(const [vehicle,observations] of vehicles){
+  const points=observations.filter(o=>RAIL_STOPS.some(([id])=>id===o.stop)).sort((a,b)=>a.at-b.at);
   if(!points.length)continue;
-  // Must be visible at Liverpool Street or be a train relevant to a transfer at Baker/Harrow.
-  if(!points.some(o=>['l','b','h'].includes(o.stop)))continue;
-  const next=points.find(o=>o.at>=now)||points[points.length-1];
-  const i=RAIL_STOPS.findIndex(([id])=>id===next.stop);
+  // A Liverpool Street prediction is necessary before marking a train as
+  // boardable/approaching Liverpool Street. A Baker Street prediction alone
+  // cannot tell whether it originated at Baker Street or passed Liverpool St.
+  const liv=points.find(o=>o.stop==='l'&&o.at>=now+BOARD_BUFFER&&validTime(o,now)&&classifyOrigin(o).ok);
+  const downstream=points.filter(o=>o.stop!=='l'&&o.at>=now);
+  const label=liv?'Predicted at Liverpool Street':downstream.length?'Downstream prediction; Liverpool Street call not evidenced':'Position unconfirmed';
+  const next=liv||downstream[0];
+  if(!next)continue;
+  const ux=isUx(next);
+  // A Watford/Chesham/Amersham service is on the shared trunk only; it must
+  // not be plotted on the Uxbridge branch after Harrow.
+  const validStops=ux?RAIL_STOPS:TRUNK;
+  const i=validStops.findIndex(([id])=>id===next.stop);
   if(i<0)continue;
-  // Position just upstream of the next predicted station. This is a route schematic, not GPS.
-  const progress=Math.max(0,Math.min(5,i-(next.at>now?Math.min(.8,Math.max(.15,(next.at-now)/ms(6))):0)));
-  rows.push({vehicle,dest:short(next.dest),at:next.at,stop:RAIL_STOPS[i][1],progress,origin:points.some(o=>o.stop==='l'),count:points.length});
+  const progress=ux?i:i; // Shared trunk occupies the first five indices.
+  rows.push({vehicle,dest:short(next.dest),at:next.at,stop:next.stop,
+    label,approaching:!!liv,progress,branch:ux?'Uxbridge':'Other branch',
+    count:new Set(points.map(x=>x.stop)).size});
  }
- rows.sort((a,b)=>Number(b.origin)-Number(a.origin)||a.at-b.at);
- const selected=rows.slice(0,4);
- let html='<div class="card"><div class="label">Train progress · schematic</div><p class="sub">Approximate position inferred from the next station prediction and vehicle ID; not continuous GPS tracking.</p>';
+ rows.sort((a,b)=>Number(b.approaching)-Number(a.approaching)||a.at-b.at);
+ const selected=rows.slice(0,5);
+ let html='<div class="card"><div class="label">Train progress · position-aware schematic</div><p class="sub">Only trains with a future Liverpool Street prediction are marked as approaching your platform. Trains first seen at Baker Street or farther west may have started there or already passed Liverpool Street. No continuous GPS positions are claimed.</p>';
  html+='<div class="rail-wrap"><div class="rail"><div class="rail-line"></div>';
- RAIL_STOPS.forEach(([id,name],i)=>{const x=5+i*18;html+=`<div class="rail-stop" style="left:${x}%"><i></i><span>${esc(name)}</span></div>`});
- selected.forEach((t,i)=>{const x=5+t.progress*18;html+=`<div class="rail-train" style="left:${x}%;top:${i%2?4:28}px" title="Train ${esc(t.vehicle)}, next ${esc(t.stop)} ${fmt(t.at)}">🚇 ${esc(t.vehicle)} · ${esc(t.dest)}</div>`});
+ RAIL_STOPS.forEach(([id,name],i)=>{const x=5+i*90/(RAIL_STOPS.length-1);html+=`<div class="rail-stop" style="left:${x}%"><i></i><span>${esc(name)}</span></div>`});
+ selected.forEach((t,i)=>{const x=5+t.progress*90/(RAIL_STOPS.length-1);html+=`<div class="rail-train" style="left:${x}%;top:${i%2?4:28}px" title="${esc(t.label)} · train ${esc(t.vehicle)} · next report ${esc(t.stop)} ${fmt(t.at)}">🚇 ${esc(t.vehicle)} · ${esc(t.dest)}</div>`});
  html+='</div></div>';
- if(selected.length)html+='<p class="rail-legend">'+selected.map(t=>`Train ${esc(t.vehicle)} (${esc(t.dest)}): next ${esc(t.stop)} ${fmt(t.at)}${t.count>1?' · '+t.count+' station reports':''}`).join('<br>')+'</p>';
- else html+='<p class="rail-legend">No train positions can currently be inferred from the available westbound vehicle IDs.</p>';
- html+='</div>';return html;
+ if(selected.length)html+='<p class="rail-legend">'+selected.map(t=>`<strong>Train ${esc(t.vehicle)}</strong> (${esc(t.dest)}): ${esc(t.label)} · next predicted ${esc(RAIL_STOPS.find(([k])=>k===t.stop)?.[1]||t.stop)} ${fmt(t.at)}${t.branch==='Other branch'?' · not on the Uxbridge branch':''}`).join('<br>')+'</p>';
+ else html+='<p class="rail-legend">No usable westbound train progress evidence in the current prediction window.</p>';
+ html+='<p class="foot">Markers sit at the next predicted station for orientation only; they do not represent measured train location. After Harrow the drawn route is Uxbridge-only. Other branches end at Harrow in this simplified view.</p></div>';
+ return html;
 }
 
 function directAlternatives(calc,now){
@@ -228,7 +243,7 @@ function sample(){demoMode=true;const now=Date.now(),t=now+ms(5);
  const mk=(from,to,depart,dur,train)=>tt[from+to].trips.push({from,to,depart,arrive:depart+ms(dur),source:'scheduled',train,vehicle:'',stops:[]});
  mk('l','u',t+ms(9),56,'Uxbridge');mk('b','u',t+ms(19),48,'Uxbridge');mk('h','u',t+ms(41),19,'Uxbridge');
  render({map,tt,now,problems:[],sample:true});}
-$('refresh').onclick=refresh;$('sample').onclick=sample;$('save').onclick=()=>{for(const f of FIELDS)localStorage.setItem('met_home_v08_'+f,f==='includeScheduled'?$(f).checked:$(f).value);if(state)render(state);};
+$('refresh').onclick=refresh;$('sample').onclick=sample;$('save').onclick=()=>{for(const f of FIELDS)localStorage.setItem('met_home_v09_'+f,f==='includeScheduled'?$(f).checked:$(f).value);if(state)render(state);};
 setInterval(()=>{if(!demoMode&&!document.hidden)refresh()},30000);
 refresh();
 </script></body></html>
