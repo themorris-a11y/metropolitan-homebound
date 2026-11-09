@@ -1,161 +1,161 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#11243b"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Met Homebound"><title>Metropolitan Homebound · v0.4</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#11243b"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Met Homebound"><title>Metropolitan Homebound · v0.6</title>
 <style>
-:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#142b41;background:#edf3f8}*{box-sizing:border-box}body{margin:0}.shell{max-width:700px;margin:auto;padding:0 14px 42px}.header{background:#11243b;color:#fff;margin:0 -14px 18px;padding:27px 19px 24px}.eyebrow{letter-spacing:2px;font-weight:750;font-size:10px;color:#b6cddd}.header h1{font-size:24px;margin:12px 0 7px}.header p{margin:0;color:#c2d8e8;font-size:14px}.top{display:flex;justify-content:space-between;align-items:center;gap:8px}.tag{background:#294761;color:#e0f0fd;border-radius:30px;font-size:11px;padding:7px 11px}.buttons{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 9px}button{background:#183450;color:white;border:none;border-radius:10px;padding:13px 15px;font-weight:700;font-size:13px;cursor:pointer}button.secondary{background:#dee8f0;color:#1b405e}button:disabled{opacity:.55}button:focus-visible,summary:focus-visible{outline:3px solid #63abdd}.status{font-size:12px;color:#607a8d;margin:10px 0 14px}.card{background:white;border:1px solid #dce6ef;border-radius:16px;padding:17px;margin-bottom:13px;box-shadow:0 1px 4px #132c4211}.hero{background:#f0fbf5;border:2px solid #24805b}.hero.caution{background:#fffaf0;border-color:#ba812b}.hero h2{font-size:23px;line-height:1.2;margin:8px 0}.label{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#597287;font-weight:800}.sub{font-size:13px;color:#506b80;line-height:1.5}.times{display:flex;justify-content:space-between;gap:10px;margin:17px 0}.big{font-size:29px;letter-spacing:-1px;font-weight:800;font-variant-numeric:tabular-nums}.caption{font-size:12px;color:#627a8d}.route{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:14px 0;border-bottom:1px solid #e7edf2}.route:last-child{border-bottom:0}.route strong{display:block;font-size:14px}.route small{display:block;font-size:12px;line-height:1.5;color:#607a8c;margin-top:5px}.right{text-align:right;min-width:95px}.eta{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}.pill{display:inline-block;border-radius:30px;background:#e4eff7;color:#365d79;padding:5px 8px;font-size:11px;font-weight:700;margin:3px 3px 0 0}.alert{background:#fff7e9;border:1px solid #ebd3ab;color:#77501e;border-radius:11px;padding:12px;margin-bottom:13px;font-size:12px;line-height:1.55}.foot{font-size:12px;line-height:1.55;color:#687e8d}.debug{font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-word}details summary{font-weight:700;color:#214b69;cursor:pointer}details{margin:4px 0}label{font-size:13px;color:#415d73;display:block;margin:13px 0}input[type=number]{float:right;width:66px;padding:6px;border:1px solid #b9c9d8;border-radius:7px;font-size:15px}.smallgap{margin-top:8px}.source{color:#39759a;font-size:11px}.muted{opacity:.7}
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#142b41;background:#edf3f8}*{box-sizing:border-box}body{margin:0}.shell{max-width:700px;margin:auto;padding:0 14px 42px}.header{background:#11243b;color:#fff;margin:0 -14px 18px;padding:27px 19px 24px}.eyebrow{letter-spacing:2px;font-weight:750;font-size:10px;color:#b6cddd}.header h1{font-size:24px;margin:12px 0 7px}.header p{margin:0;color:#c2d8e8;font-size:14px}.top{display:flex;justify-content:space-between;align-items:center;gap:8px}.tag{background:#294761;color:#e0f0fd;border-radius:30px;font-size:11px;padding:7px 11px}.buttons{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 9px}button{background:#183450;color:white;border:none;border-radius:10px;padding:13px 15px;font-weight:700;font-size:13px;cursor:pointer}button.secondary{background:#dee8f0;color:#1b405e}button:disabled{opacity:.55}button:focus-visible,summary:focus-visible{outline:3px solid #63abdd}.status{font-size:12px;color:#607a8d;margin:10px 0 14px}.card{background:white;border:1px solid #dce6ef;border-radius:16px;padding:17px;margin-bottom:13px;box-shadow:0 1px 4px #132c4211}.hero{background:#f0fbf5;border:2px solid #24805b}.hero.caution{background:#fffaf0;border-color:#ba812b}.hero h2{font-size:23px;line-height:1.2;margin:8px 0}.label{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#597287;font-weight:800}.sub{font-size:13px;color:#506b80;line-height:1.5}.times{display:flex;justify-content:space-between;gap:10px;margin:17px 0}.big{font-size:29px;letter-spacing:-1px;font-weight:800;font-variant-numeric:tabular-nums}.caption{font-size:12px;color:#627a8d}.route{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:14px 0;border-bottom:1px solid #e7edf2}.route:last-child{border-bottom:0}.route strong{display:block;font-size:14px}.route small{display:block;font-size:12px;line-height:1.5;color:#607a8c;margin-top:5px}.right{text-align:right;min-width:95px}.eta{font-size:20px;font-weight:800;font-variant-numeric:tabular-nums}.pill{display:inline-block;border-radius:30px;background:#e4eff7;color:#365d79;padding:5px 8px;font-size:11px;font-weight:700;margin:3px 3px 0 0}.alert{background:#fff7e9;border:1px solid #ebd3ab;color:#77501e;border-radius:11px;padding:12px;margin-bottom:13px;font-size:12px;line-height:1.55}.foot{font-size:12px;line-height:1.55;color:#687e8d}.debug{font-size:12px;line-height:1.6;white-space:pre-wrap;word-break:break-word}details summary{font-weight:700;color:#214b69;cursor:pointer}details{margin:4px 0}label{font-size:13px;color:#415d73;display:block;margin:13px 0}input[type=number]{float:right;width:66px;padding:6px;border:1px solid #b9c9d8;border-radius:7px;font-size:15px}.smallgap{margin-top:8px}.source{color:#39759a;font-size:11px}.muted{opacity:.7}.liveok{background:#e7f7ed;color:#226443}.tracked{font-variant-numeric:tabular-nums}.route .details{font-size:12px;color:#476479;line-height:1.65}.mini{font-size:11px;color:#657c8f} .trackgrid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:9px 0}.trackgrid>div{background:#f3f7fa;border-radius:9px;padding:9px}.trackgrid b{display:block;font-size:15px} .nowrap{white-space:nowrap}
 </style></head>
-<body><div class="shell"><header class="header"><div class="top"><span class="eyebrow">METROPOLITAN LINE · HOMEBOUND</span><span class="tag" id="mode">LOADING</span></div><h1>Liverpool Street → Uxbridge</h1><p>Live departures + official scheduled journeys · v0.4</p></header>
+<body><div class="shell"><header class="header"><div class="top"><span class="eyebrow">METROPOLITAN LINE · HOMEBOUND</span><span class="tag" id="mode">LOADING</span></div><h1>Liverpool Street → Uxbridge</h1><p>Live train tracking + scheduled fallback · v0.6</p></header>
 <div class="buttons"><button id="refresh">↻ Refresh now</button><button id="sample" class="secondary">Show example</button></div><div class="status" id="status">Checking TfL data…</div><div id="messages"></div><main id="main"><div class="card"><p class="sub">Loading departure predictions and official timetables…</p></div></main>
 <div class="card"><details><summary>Journey preferences &amp; transfer rules</summary>
 <label>Maximum Harrow wait (minutes) <input id="maxHarrow" type="number" min="1" max="15" value="5"></label>
 <label>Minimum Baker transfer (minutes) <input id="minBaker" type="number" min="1" max="15" value="3"></label>
 <label>Minimum Harrow transfer (minutes) <input id="minHarrow" type="number" min="1" max="15" value="3"></label>
-<label>Prefer direct if within (minutes) <input id="directBonus" type="number" min="0" max="15" value="3"></label>
+<label>Prefer direct if within (minutes) <input id="directBonus" type="number" min="0" max="15" value="0"></label>
 <label><input type="checkbox" id="includeScheduled" checked> Show future timetable-only options</label>
 <button id="save" class="smallgap">Save preferences</button>
 <p class="foot">Harrow transfers must allow at least the minimum platform transfer time and no more than the maximum wait. Scheduled services are not guaranteed to run; check signs and announcements.</p></details></div>
-<div class="card"><details><summary>Data sources &amp; diagnostics</summary><div id="diagnostics" class="debug">No data yet.</div></details></div>
-<p class="foot">Unofficial travel aid. Data: TfL Unified API, Metropolitan line arrivals and timetables. Live predictions may be incomplete; official schedules are not proof of a train running. Arrival estimates, platform changes and cancellations can alter the result. Not affiliated with TfL. Refreshes every 30 seconds while open.</p></div>
+<div class="card"><details><summary>Data sources &amp; train matching diagnostics</summary><div id="diagnostics" class="debug">No data yet.</div></details></div>
+<p class="foot">Unofficial travel aid. Data: TfL Unified API, Metropolitan line arrivals, vehicle identifiers and timetables. Live tracking matches only identical nonempty vehicle IDs; predictions may be incomplete; official schedules are not proof of a train running. Arrival estimates, platform changes and cancellations can alter the result. Not affiliated with TfL. Refreshes every 30 seconds while open.</p></div>
 <script>
 'use strict';
-const ROOT='https://api.tfl.gov.uk';
-const S={l:'940GZZLULVT',b:'940GZZLUBST',h:'940GZZLUHOH',u:'940GZZLUUXB'};
-const PAIRS=[['l','b'],['l','h'],['l','u'],['b','u'],['h','u']];
+const ROOT='https://api.tfl.gov.uk', S={l:'940GZZLULVT',b:'940GZZLUBST',h:'940GZZLUHOH',u:'940GZZLUUXB', f:'940GZZLUFYR',w:'940GZZLUWYP', n:'940GZZLUNHA', r:'940GZZLURYL', e:'940GZZLUEAE',m:'940GZZLURSM',i:'940GZZLUICK',d:'940GZZLUHGD'};
+const PAIRS=[['l','b'],['l','h'],['l','u'],['b','u'],['h','u']], KEY=['l','b','h','u'];
 const FIELDS=['maxHarrow','minBaker','minHarrow','directBonus','includeScheduled'];
-const $=id=>document.getElementById(id), ms=m=>m*60000;
+const $=id=>document.getElementById(id), ms=m=>60000*m;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=t=>Number.isFinite(t)?new Intl.DateTimeFormat('en-GB',{hour:'2-digit',minute:'2-digit',timeZone:'Europe/London'}).format(new Date(t)):'—';
-const int=id=>Math.max(0,Number($(id).value)||0);
-const londonParts=(d=new Date())=>Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit',weekday:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(d).map(p=>[p.type,p.value]));
-let mode='live',state=null,inFlight=false,timetableCache=null,timetableAt=0,cacheDay='';
-for(const f of FIELDS){const v=localStorage.getItem('met_home_v04_'+f);if(v!==null){if(f==='includeScheduled')$(f).checked=v==='true';else $(f).value=v;}}
-async function fetchJSON(path){const controller=new AbortController(),kill=setTimeout(()=>controller.abort(),14000);try{const r=await fetch(ROOT+path,{signal:controller.signal,cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(kill)}}
-function arrivals(a){return Array.isArray(a)?a.filter(x=>x.lineId==='metropolitan'&&x.expectedArrival&&Number.isFinite(Date.parse(x.expectedArrival))).map(x=>({at:Date.parse(x.expectedArrival),dest:String(x.destinationName||''),platform:String(x.platformName||''),vehicle:String(x.vehicleId||''),towards:String(x.towards||'')})).sort((x,y)=>x.at-y.at):[]}
-function isUx(x){return /uxbridge/i.test(x.dest)}
-function isBranch(x){return /uxbridge|watford|amersham|chesham|harrow.on.the.hill/i.test(x.dest)}
-function isHarrowTrain(x){return /watford|amersham|chesham/i.test(x.dest)}
-function dayFits(name,weekday){const t=String(name||'').toLowerCase();if(!t)return true;const isWeekend=/saturday|sunday|weekend|sat\b|sun\b/.test(t);const isWeek=/monday|friday|weekday|mon\b|fri\b|m-f|mon-fri/.test(t);if(weekday==='Saturday')return /saturday|\bsat\b|weekend/.test(t)||(!isWeekend&&!isWeek);if(weekday==='Sunday')return /sunday|\bsun\b|weekend/.test(t)||(!isWeekend&&!isWeek);return !isWeekend || isWeek}
-function timetableDecode(json,from,to,now,weekday){
- if(!json?.timetable?.routes || !Array.isArray(json.timetable.routes))return {trips:[],reason:json?.statusErrorMessage||'No timetable routes returned'};
- const p=londonParts(new Date(now));const date=p.year+'-'+p.month+'-'+p.day;const base=Date.parse(date+'T00:00:00Z');
- // Convert clock time via UK local offset at the service date; handles BST as well as GMT.
- const offset=(()=>{const d=new Date(base+ms(12*60));const local=londonParts(d);return (Number(local.hour)*60+Number(local.minute)) - (d.getUTCHours()*60+d.getUTCMinutes());})();
- const trips=[];let schedules=0,journeys=0,intervalMiss=0;
- for(const route of json.timetable.routes){const byId=new Map((route.stationIntervals||[]).map(x=>[String(x.id),x.intervals||[]]));
-  for(const sch of route.schedules||[]){if(!dayFits(sch.name,weekday))continue;schedules++;
-   for(const j of sch.knownJourneys||[]){journeys++;
-    const hour=Number(j.hour),minute=Number(j.minute);if(!Number.isInteger(hour)||!Number.isInteger(minute)||hour<0||hour>28||minute<0||minute>=60)continue;
-    const interval=byId.get(String(j.intervalId));if(!interval){intervalMiss++;continue;}
-    const target=interval.find(x=>String(x.stopId).toUpperCase()===S[to]);
-    // Route-specific timetable-to responses identify the destination by stop ID.
-    if(!target||!Number.isFinite(Number(target.timeToArrival))) {intervalMiss++;continue;}
-    const duration=Number(target.timeToArrival);if(duration<2||duration>100)continue;
-    const depart=base+ms(hour*60+minute-offset);if(depart<now-ms(5)||depart>now+ms(120))continue;
-    trips.push({depart,arrive:depart+ms(duration),duration,source:'scheduled',from,to,routeName:sch.name||'',stops:interval.map(x=>x.stopId)});
+const setting=id=>Math.max(0,Number($(id).value)||0);
+const ukParts=(d=new Date())=>Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit',weekday:'long',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(d).map(p=>[p.type,p.value]));
+const isUx=x=>/uxbridge/i.test(x.dest||'');
+const west=x=>/uxbridge|watford|amersham|chesham|harrow.on.the.hill/i.test(x.dest||'');
+const short=s=>String(s||'').replace(/ Underground Station/ig,'');
+let active=false,state=null,cache=null,cacheAt=0,cacheDay='',demoMode=false;
+for(const f of FIELDS){const v=localStorage.getItem('met_home_v06_'+f)||localStorage.getItem('met_home_v05_'+f);if(v!==null){if(f==='includeScheduled')$(f).checked=v==='true';else $(f).value=v}}
+async function get(path,timeout=15000){const ctl=new AbortController(),kill=setTimeout(()=>ctl.abort(),timeout);try{const r=await fetch(ROOT+path,{signal:ctl.signal,cache:'no-store'});if(!r.ok)throw Error('TfL HTTP '+r.status+' '+path);return await r.json()}finally{clearTimeout(kill)}}
+function parse(arr){return (Array.isArray(arr)?arr:[]).filter(x=>x.lineId==='metropolitan'&&x.expectedArrival&&!Number.isNaN(Date.parse(x.expectedArrival))).map(x=>({at:Date.parse(x.expectedArrival),dest:String(x.destinationName||''),vehicle:String(x.vehicleId||'').trim(),platform:String(x.platformName||''),towards:String(x.towards||''),station:String(x.naptanId||''),location:String(x.currentLocation||''),timestamp:String(x.timestamp||'')})).sort((a,b)=>a.at-b.at)}
+function uniq(arr){const seen=new Set();return arr.filter(x=>{const k=[x.station,x.vehicle||x.dest,x.at].join('/');if(seen.has(k))return false;seen.add(k);return true})}
+function dayFits(name,weekday){const t=String(name||'').toLowerCase().replace(/[–—]/g,'-');if(!t)return true;
+ const w=['Monday','Tuesday','Wednesday','Thursday','Friday'];if(/monday\s*(?:-|to)\s*thursday|mon\s*(?:-|to)\s*thu/.test(t))return w.slice(0,4).includes(weekday);
+ if(/monday\s*(?:-|to)\s*friday|mon\s*(?:-|to)\s*fri|weekdays?|m-f/.test(t))return w.includes(weekday);
+ if(/weekends?|saturday\s*(?:-|to)\s*sunday/.test(t))return !w.includes(weekday);
+ const names=['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];const explicit=names.filter(d=>t.includes(d));return !explicit.length||explicit.includes(weekday.toLowerCase());}
+function decode(json,from,to,now){if(!Array.isArray(json?.timetable?.routes))return {trips:[],reason:json?.statusErrorMessage||'No routes'};
+ const local=ukParts(new Date(now)),base=Date.parse(local.year+'-'+local.month+'-'+local.day+'T00:00:00Z');
+ const midday=new Date(base+ms(720)),noon=ukParts(midday),offset=(+noon.hour*60+(+noon.minute))-(midday.getUTCHours()*60+midday.getUTCMinutes());
+ const trips=[];let count=0;
+ for(const route of json.timetable.routes){const intervals=new Map((route.stationIntervals||[]).map(x=>[String(x.id),x.intervals||[]]));
+  for(const schedule of route.schedules||[]){if(!dayFits(schedule.name,local.weekday))continue;
+   for(const j of schedule.knownJourneys||[]){count++;const h=+j.hour,m=+j.minute;if(!Number.isInteger(h)||h<0||h>28||!Number.isInteger(m)||m<0||m>59)continue;
+    const interval=intervals.get(String(j.intervalId));if(!interval)continue;
+    const target=interval.find(x=>String(x.stopId).toUpperCase()===S[to]);if(!target)continue;
+    const dur=+target.timeToArrival;if(!Number.isFinite(dur)||dur<1||dur>115)continue;
+    const depart=base+ms(h*60+m-offset);if(depart<now-ms(8)||depart>now+ms(110))continue;
+    trips.push({from,to,depart,arrive:depart+ms(dur),source:'scheduled',vehicle:'',train:'',platform:'',stops:interval.map(x=>String(x.stopId).toUpperCase()),route:schedule.name||''});
    }
   }
  }
- return {trips:trips.sort((a,b)=>a.depart-b.depart),reason:trips.length?'':`No applicable timed journeys (schedules ${schedules}, known journeys ${journeys}, unmatched intervals ${intervalMiss}). Frequency-only schedules are not converted into invented departures.`};
-}
-async function loadTimetables(now){const p=londonParts(new Date(now)),key=p.year+p.month+p.day;
- if(timetableCache&&cacheDay===key&&now-timetableAt<ms(20))return timetableCache;
- const all=await Promise.allSettled(PAIRS.map(([a,b])=>fetchJSON('/Line/metropolitan/Timetable/'+S[a]+'/to/'+S[b])));
- const result={};PAIRS.forEach(([a,b],i)=>{const k=a+b,r=all[i];result[k]=r.status==='fulfilled'?{data:r.value}:{error:r.reason?.message||'Fetch failed'}});
- timetableCache=result;timetableAt=now;cacheDay=key;return result;
-}
-function nearestScheduled(trips,at,maxDiff=9){return trips.filter(x=>Math.abs(x.depart-at)<=ms(maxDiff)).sort((a,b)=>Math.abs(a.depart-at)-Math.abs(b.depart-at))[0]||null}
-function pickLegs(from,to,live,timetable,now,limit=75){
- const sched=(timetable?.[from+to]?.trips||[]).filter(x=>x.depart>=now-ms(2)&&x.depart<=now+ms(limit));
- const origin=live[from]||[];
- const candidates=[];
- for(const sch of sched){let match=null;
-  if(from==='l'){const target=to==='u'?origin.filter(isUx):origin.filter(x=>isBranch(x)&&!isUx(x));match=nearestLive(target,sch.depart,8)}
-  else if(to==='u'){match=nearestLive(origin.filter(isUx),sch.depart,8)}
-  if(match){const shift=match.at-sch.depart;candidates.push({...sch,depart:match.at,arrive:sch.arrive+shift,source:'live+scheduled',platform:match.platform,train:match.dest,vehicle:match.vehicle});}
-  else if($('includeScheduled').checked)candidates.push({...sch,platform:'',train:to==='u'?'Uxbridge':'Metropolitan service'});
+ return {trips:trips.sort((a,b)=>a.depart-b.depart),reason:trips.length?'':`No applicable known journeys; checked ${count} timetable entries`};}
+async function timetables(now){const p=ukParts(new Date(now)),key=p.year+p.month+p.day;
+ if(cache&&key===cacheDay&&now-cacheAt<ms(20))return cache;
+ const responses=await Promise.allSettled(PAIRS.map(([a,b])=>get('/Line/metropolitan/Timetable/'+S[a]+'/to/'+S[b])));
+ cache={};PAIRS.forEach(([a,b],i)=>{const r=responses[i];cache[a+b]=r.status==='fulfilled'?{data:r.value}:{error:String(r.reason)}});cacheAt=now;cacheDay=key;return cache;}
+function matchedForecast(map,vehicle,station,after){if(!vehicle)return null;return (map[station]||[]).filter(x=>x.vehicle===vehicle&&x.at>=after-ms(2)).sort((a,b)=>a.at-b.at)[0]||null}
+function nearSchedule(rows,time,window=4){return rows.filter(x=>Math.abs(x.depart-time)<=ms(window)).sort((a,b)=>Math.abs(a.depart-time)-Math.abs(b.depart-time))[0]||null}
+function liveLegs(from,to,map,tt,now){let out=[],departures=(map[from]||[]).filter(x=>x.at>=now-ms(1)&&x.at<=now+ms(70)&&west(x));
+ if(to==='u')departures=departures.filter(isUx);
+ else if(from==='l')departures=departures.filter(x=>!isUx(x));
+ else departures=departures.filter(isUx);
+ for(const x of departures){const dest=matchedForecast(map,x.vehicle,to,x.at);
+  if(dest&&dest.at>x.at+ms(2)&&dest.at<x.at+ms(95)){
+   // Only an identical, non-empty vehicle ID is evidence that one train serves both stations.
+   out.push({from,to,depart:x.at,arrive:dest.at,vehicle:x.vehicle,train:x.dest,platform:x.platform,source:'tracked',location:x.location,stops:[]});continue;
+  }
+  const sch=nearSchedule(tt[from+to]?.trips||[],x.at);
+  if(sch){out.push({...sch,depart:x.at,arrive:sch.arrive+(x.at-sch.depart),source:'live+schedule',vehicle:x.vehicle,train:x.dest,platform:x.platform,location:x.location});}
  }
- // When no scheduled journey matches a visible train, a timetable-derived typical duration
- // can still estimate its arrival; never label this as an individually verified service.
- if(from==='l'){
-  const relevant=origin.filter(x=>to==='u'?isUx(x):isBranch(x)&&!isUx(x)).filter(x=>x.at>=now-ms(1)&&x.at<=now+ms(limit));
-  const durations=(timetable?.[from+to]?.trips||[]).map(x=>x.duration).sort((a,b)=>a-b);
-  if(durations.length){const median=durations[Math.floor(durations.length/2)];
-   for(const x of relevant){if(candidates.some(c=>c.source==='live+scheduled'&&Math.abs(c.depart-x.at)<ms(1)))continue;
-    candidates.push({from,to,depart:x.at,arrive:x.at+ms(median),duration:median,source:'live+typical',platform:x.platform,train:x.dest,vehicle:x.vehicle,stops:[]});
-   }
+ return out;
+}
+function scheduledLegs(from,to,tt,now){if(!$('includeScheduled').checked)return [];return (tt[from+to]?.trips||[]).filter(x=>x.depart>=now-ms(1)&&x.depart<=now+ms(75)).map(x=>({...x,train:to==='u'?'Uxbridge (scheduled)':'Unverified destination'}))}
+function makeLegs(from,to,map,tt,now){const live=liveLegs(from,to,map,tt,now),planned=scheduledLegs(from,to,tt,now);
+ // If a scheduled departure is within 2 minutes of a live departure, avoid showing a duplicate phantom train.
+ const combined=[...live,...planned.filter(x=>!live.some(y=>Math.abs(y.depart-x.depart)<=ms(2)))];
+ return combined.sort((a,b)=>a.depart-b.depart).slice(0,45);}
+function cost(p){return p.legs.reduce((n,l)=>n+(l.source==='tracked'?0:l.source==='live+schedule'?1:3),0)}
+function confidence(p){const a=p.legs.map(x=>x.source);return a.every(x=>x==='tracked')?'Live-tracked':a.includes('scheduled')?'Timetable estimate':a.includes('live+schedule')?'Live + timetable':'Mixed evidence'}
+function build(map,tt,now){const legs=Object.fromEntries(PAIRS.map(([a,b])=>[a+b,makeLegs(a,b,map,tt,now)]));const paths=[];
+ for(const x of legs.lu)paths.push({kind:'direct',legs:[x],depart:x.depart,arrive:x.arrive,vehicle:x.vehicle});
+ for(const kind of ['baker','harrow']){
+  const xlegs=legs[kind==='baker'?'lb':'lh'],ylegs=legs[kind==='baker'?'bu':'hu'];
+  for(const x of xlegs)for(const y of ylegs){const wait=(y.depart-x.arrive)/60000;
+   if(wait<(kind==='baker'?setting('minBaker'):setting('minHarrow'))||wait>(kind==='baker'?28:setting('maxHarrow')))continue;
+   if(x.vehicle&&y.vehicle&&x.vehicle===y.vehicle)continue; // not a real interchange
+   paths.push({kind,legs:[x,y],depart:x.depart,arrive:y.arrive,wait,vehicle:x.vehicle});
   }
  }
- return candidates.sort((a,b)=>a.depart-b.depart).slice(0,35);
+ // A timetable-only route can never outrank a live-tracked route purely due to optimistic scheduled timing.
+ const byKind={};for(const kind of ['direct','baker','harrow'])byKind[kind]=paths.filter(x=>x.kind===kind).sort((a,b)=>a.arrive-b.arrive||cost(a)-cost(b))[0]||null;
+ const candidates=Object.values(byKind).filter(Boolean).sort((a,b)=>a.arrive-b.arrive||cost(a)-cost(b));
+ let best=candidates[0]||null;
+ // Avoid strong Harrow recommendation on untracked vehicle identity / unverified fast pattern.
+ if(best?.kind==='harrow'&&best.legs[0].source!=='tracked'){const alt=candidates.find(x=>x.kind!=='harrow');if(alt)best=alt;}
+ if(best?.kind==='harrow'){const alt=candidates.find(x=>x.kind!=='harrow'&&x.arrive<=best.arrive+ms(4));if(alt)best=alt;}
+ if(best&&byKind.direct&&byKind.direct.arrive<=best.arrive+ms(setting('directBonus')))best=byKind.direct;
+ return {legs,paths,byKind,best,candidates};}
+function tripLabel(l){return short(l.train||'Metropolitan service')+(l.vehicle?' · train '+l.vehicle:'')}
+function sourcePill(p){const c=confidence(p);return `<span class="pill ${c==='Live-tracked'?'liveok':''}">${esc(c)}</span>`}
+function itinerary(p){if(!p)return '';
+ const a=p.legs[0],b=p.legs[1];if(!b)return `Liverpool St ${fmt(a.depart)} → Uxbridge ${fmt(a.arrive)} · ${esc(tripLabel(a))}`;
+ const via=p.kind==='baker'?'Baker Street':'Harrow-on-the-Hill';
+ return `Liverpool St ${fmt(a.depart)} → ${via} ${fmt(a.arrive)} · ${esc(tripLabel(a))}<br>${via} ${fmt(b.depart)} → Uxbridge ${fmt(b.arrive)} · ${esc(tripLabel(b))}<br>Transfer ${Math.round(p.wait)} min · ${esc(a.source)} / ${esc(b.source)}`;
 }
-function nearestLive(xs,t,delta){return xs.filter(x=>Math.abs(x.at-t)<=ms(delta)).sort((a,b)=>Math.abs(a.at-t)-Math.abs(b.at-t))[0]||null}
-function score(c){return c.legs.filter(x=>x.source==='scheduled').length*2+c.legs.filter(x=>x.source==='live+typical').length}
-function buildChoices(live,tt,now){
- const legs={lu:pickLegs('l','u',live,tt,now),lb:pickLegs('l','b',live,tt,now),lh:pickLegs('l','h',live,tt,now),bu:pickLegs('b','u',live,tt,now),hu:pickLegs('h','u',live,tt,now)};
- const paths=[];
- for(const x of legs.lu)paths.push({kind:'direct',depart:x.depart,arrive:x.arrive,legs:[x]});
- for(const x of legs.lb)for(const y of legs.bu){const gap=(y.depart-x.arrive)/60000;if(gap<int('minBaker')||gap>28)continue;
-  paths.push({kind:'baker',depart:x.depart,arrive:y.arrive,legs:[x,y],gap});}
- for(const x of legs.lh)for(const y of legs.hu){const gap=(y.depart-x.arrive)/60000;if(gap<int('minHarrow')||gap>int('maxHarrow'))continue;
-  // Fast/semi-fast classification requires a published stop pattern for the individual service.
-  paths.push({kind:'harrow',depart:x.depart,arrive:y.arrive,legs:[x,y],gap,fastVerified:false});}
- const withLive=paths.filter(p=>p.legs[0].source!=='scheduled');
- const candidates=withLive.length?withLive:paths;
- const bestKind=k=>candidates.filter(x=>x.kind===k).sort((a,b)=>a.arrive-b.arrive||score(a)-score(b))[0]||null;
- const byKind={direct:bestKind('direct'),baker:bestKind('baker'),harrow:bestKind('harrow')};
- let ranked=Object.values(byKind).filter(Boolean).sort((a,b)=>a.arrive-b.arrive||score(a)-score(b));let best=ranked[0]||null;
- // Do not present Harrow as a verified fast train; nonetheless show it with a clear qualification.
- if(best?.kind==='harrow'&&ranked.some(x=>x.kind!=='harrow'&&x.arrive<=best.arrive+ms(4)))best=ranked.find(x=>x.kind!=='harrow'&&x.arrive<=best.arrive+ms(4));
- if(byKind.direct&&best&&byKind.direct.arrive<=best.arrive+ms(int('directBonus')))best=byKind.direct;
- return {legs,byKind,best,paths,ranked};
+function routeRow(kind,p){const name={direct:'Direct Uxbridge',baker:'Change at Baker Street',harrow:'Change at Harrow-on-the-Hill'}[kind];
+ return `<div class="route"><div><strong>${name}</strong>${p?`<small>${sourcePill(p)} ${kind==='harrow'?'<span class="pill">Fast not verified</span>':''}</small><div class="details">${itinerary(p)}</div>`:'<small>No viable itinerary in available data</small>'}</div><div class="right"><div class="eta">${p?fmt(p.arrive):'—'}</div><small>${p?'estimated Uxbridge':'Unavailable'}</small></div></div>`;}
+function render(data){state=data;const {map,tt,now,problems,sample}=data,calc=build(map,tt,now),best=calc.best;
+ const count=Object.values(tt).reduce((n,x)=>n+(x.trips?.length||0),0);
+ const numTracked=Object.values(calc.legs).flat().filter(x=>x.source==='tracked').length;
+ let hero='';if(best){const a=best.legs[0],b=best.legs[1],verified=confidence(best)==='Live-tracked';
+  const heading=best.kind==='direct'?'Take the direct Uxbridge train':`Board ${esc(short(a.train||'Metropolitan'))}; change at ${best.kind==='baker'?'Baker Street':'Harrow'}`;
+  hero=`<section class="card hero ${verified?'':'caution'}"><div class="label">${sample?'Illustrative demonstration':verified?'Live-tracked estimate':'Provisional · not fully tracked'}</div><h2>${heading}</h2>${sourcePill(best)} ${best.kind==='harrow'?'<span class="pill">Fast pattern unverified</span>':''}<div class="times"><div><div class="caption">Board Liverpool Street</div><div class="big">${fmt(best.depart)}</div></div><div style="text-align:right"><div class="caption">Estimated Uxbridge arrival</div><div class="big">${fmt(best.arrive)}</div></div></div><p class="sub">${b?`Change at ${best.kind==='baker'?'Baker Street':'Harrow-on-the-Hill'} ${fmt(a.arrive)} → ${fmt(b.depart)} (${Math.round(best.wait)} min).`: 'Stay on board to Uxbridge.'} ${a.vehicle?'Train ID '+esc(a.vehicle)+'. ':''}${a.platform?esc(a.platform):''}</p></section>`;
+ }else hero='<div class="card"><h2>Insufficient comparable journeys</h2><p class="sub">Live boards may be available, but no feasible direct or connecting journey could be timed. Check the station departure board.</p></div>';
+ const board=(map.l||[]).filter(x=>x.at>=now-ms(1)&&west(x)).slice(0,10);
+ const boardHtml=board.map(x=>`<div class="route"><div><strong>${esc(short(x.dest))}</strong><small>${esc(x.platform||'Platform unknown')} ${x.vehicle?'· train '+esc(x.vehicle):''}</small><small>${esc(x.location||'')}</small></div><div class="right"><div class="eta">${fmt(x.at)}</div><small>${Math.max(0,Math.ceil((x.at-now)/60000))} min</small></div></div>`).join('')||'<p class="sub">No eligible Liverpool Street live predictions currently displayed.</p>';
+ let warning='';if(best&&confidence(best)!=='Live-tracked')warning+='The recommended itinerary is not fully vehicle-tracked. Scheduled connections may change or be cancelled. ';
+ if(best?.kind==='harrow')warning+='Harrow fast/semi-fast stopping pattern is unverified: check platform information. ';
+ if(!count)warning+='The timetable feed returned no usable known journeys. ';
+ if(!numTracked)warning+='No same-vehicle, two-station predictions were available in this snapshot. ';
+ $('main').innerHTML=hero+`<div class="card"><div class="label">Three-route comparison · Uxbridge arrival</div>${routeRow('direct',calc.byKind.direct)}${routeRow('baker',calc.byKind.baker)}${routeRow('harrow',calc.byKind.harrow)}<p class="foot">Same train IDs establish tracked train movements, not a guaranteed interchange. Where a train cannot be tracked between stations, timing uses scheduled predictions with reduced confidence. A change at Harrow requires ${setting('minHarrow')}–${setting('maxHarrow')} minutes.</p></div>`+(warning?`<div class="alert">${esc(warning)}</div>`:'')+`<div class="card"><div class="label">Liverpool Street · live Metropolitan trains</div>${boardHtml}</div><div class="card"><div class="label">Train tracking coverage</div><div class="trackgrid"><div><span class="mini">Matched station-to-station legs</span><b>${numTracked}</b></div><div><span class="mini">Official timed journeys</span><b>${count}</b></div></div><p class="sub">Liverpool Street ${map.l?.length||0} predictions · Baker Street ${map.b?.length||0} · Harrow ${map.h?.length||0} · Uxbridge ${map.u?.length||0}. Vehicle IDs are matched exactly; station boards are not assumed to represent the same train.</p></div>`;
+ let d=`${sample?'EXAMPLE':'LIVE'} · ${fmt(now)}\nTimetable: ${count} total known journeys\nTracked individual legs: ${numTracked}\n`;
+ for(const [a,b] of PAIRS){const legs=calc.legs[a+b]||[];d+=`${a}→${b}: ${legs.filter(x=>x.source==='tracked').length} same-vehicle, ${legs.filter(x=>x.source==='live+schedule').length} live+schedule, ${legs.filter(x=>x.source==='scheduled').length} scheduled\n`;}
+ const trackedVehicles=new Map();for(const [id,rows] of Object.entries(map)){for(const x of rows){if(!x.vehicle)continue;const a=trackedVehicles.get(x.vehicle)||[];a.push({id,at:x.at,dest:x.dest});trackedVehicles.set(x.vehicle,a)}}
+ d+='\nVehicles seen at multiple queried stations:\n';let shown=0;for(const [id,rows] of trackedVehicles){if(new Set(rows.map(x=>x.id)).size>1){d+=`${id}: ${rows.map(x=>x.id+' '+fmt(x.at)).join(' → ')}\n`;if(++shown>=18)break}}if(!shown)d+='None in current forecast window.\n';
+ d+='\nSource errors: '+(problems.join(' | ')||'none');$('diagnostics').textContent=d;
+ $('mode').textContent=sample?'DEMO':problems.length?'PARTIAL DATA':'LIVE + TRACKING';$('status').textContent=sample?'Demonstration data — not live':`Updated ${fmt(now)} · refreshes every 30 sec · ${numTracked} tracked legs`;
+ $('messages').innerHTML=problems.length?`<div class="alert">Some TfL data unavailable: ${esc(problems.join(' · '))}</div>`:'';
 }
-function badge(p){return p.legs.some(x=>x.source==='live+typical')?'Live departure · typical run time':p.legs.every(x=>x.source==='scheduled')?'Timetable only':p.legs.some(x=>x.source==='scheduled')?'Live + timetable':'Live-matched timetable'}
-function label(k){return k==='direct'?'Direct Uxbridge':k==='baker'?'Change at Baker Street':'Change at Harrow-on-the-Hill'}
-function routeRow(k,p){const note=p?`${badge(p)}${p.gap!=null?' · '+Math.round(p.gap)+' min transfer':''}${k==='harrow'?' · fast status unverified':''}`:k==='direct'?'No timed departure available':`No feasible ${k==='harrow'?'3–5 min':'Baker Street'} connection in retrieved data`;
- return `<div class="route"><div><strong>${label(k)}</strong><small>${esc(note)}</small>${p?`<small>Board ${fmt(p.depart)}${p.legs[0].train?' · '+esc(shortDest(p.legs[0].train)):''}</small>`:''}</div><div class="right"><div class="eta">${p?fmt(p.arrive):'—'}</div><small>${p?'estimated arrival':'Not assessed'}</small></div></div>`}
-function shortDest(s){return String(s||'').replace(/ Underground Station/ig,'')}
-function render(data){state=data;const {live,tt,now,problems,example}=data;
- const p=buildChoices(live,tt,now),best=p.best;
- const timetableCount=Object.values(tt).reduce((s,v)=>s+(v.trips?.length||0),0);
- let hero='';
- if(best){const first=best.legs[0],second=best.legs[1],uncertain=badge(best)!=='Live-matched timetable'||best.kind==='harrow';
-  const heading=best.kind==='direct'?'Wait for the direct Uxbridge train':`Board ${esc(shortDest(first.train||'Metropolitan'))} · change at ${best.kind==='baker'?'Baker Street':'Harrow'}`;
-  const similar=p.ranked.filter(x=>x!==best&&x.arrive<best.arrive+ms(6));
-  hero=`<section class="card hero ${uncertain?'caution':''}"><div class="label">${example?'Demonstration only':uncertain?'Provisional earliest option':'Best available estimate'}</div><h2>${heading}</h2><span class="pill">${esc(badge(best))}</span>${best.kind==='harrow'?'<span class="pill">Fast service not verified</span>':''}<div class="times"><div><div class="caption">Board at Liverpool Street</div><div class="big">${fmt(best.depart)}</div></div><div style="text-align:right"><div class="caption">Estimated Uxbridge arrival</div><div class="big">${fmt(best.arrive)}</div></div></div><div class="sub">${second?`Change at ${best.kind==='baker'?'Baker Street':'Harrow-on-the-Hill'} around ${fmt(first.arrive)}; Uxbridge service ${fmt(second.depart)} (${Math.round(best.gap)} min connection).`:'Stay on the train to Uxbridge.'}${first.platform?' · '+esc(first.platform):''}</div>${similar.length?'<p class="foot">Other options have similar estimated arrival times; check the station board before boarding.</p>':''}</section>`;
- }else hero='<div class="card"><h2>Not enough timetable information</h2><p class="sub">Live trains may be visible, but the API has not returned enough individual timetable journeys to calculate arrivals. Check the departure board.</p></div>';
- let warning='';if(!example){
-  if(timetableCount===0)warning='The TfL timetable endpoint did not return usable individual journeys. No arrival comparison can be made; frequency-only timetable periods are not interpreted as exact departures.';
-  else if(!p.byKind.direct)warning='No direct Uxbridge journey could be timed from current live or scheduled data.';
-  if(best&&badge(best)==='Timetable only')warning+=' The leading option is timetable-only: verify it appears on the platform board before relying on it.';
-  if(best?.kind==='harrow')warning+=' Harrow fast stopping pattern has not been confirmed; check the destination and stopping information before boarding.';
- }
- const board=(live.l||[]).filter(x=>x.at>=now-ms(1)&&isBranch(x)).slice(0,8);
- const boardHtml=board.map(x=>`<div class="route"><div><strong>${esc(shortDest(x.dest))}</strong><small>${esc(x.platform||'Platform unconfirmed')}</small></div><div class="right"><div class="eta">${fmt(x.at)}</div><small>${Math.max(0,Math.ceil((x.at-now)/60000))} min</small></div></div>`).join('')||'<p class="sub">No Liverpool Street departures currently shown.</p>';
- $('main').innerHTML=hero+`<div class="card"><div class="label">Three-route comparison · arrival at Uxbridge</div>${routeRow('direct',p.byKind.direct)}${routeRow('baker',p.byKind.baker)}${routeRow('harrow',p.byKind.harrow)}<p class="foot">Calculated from published timed journeys, with available live arrivals used to adjust estimates. A predicted/scheduled connection is not a guarantee. Harrow services are not described as verified fast trains.</p></div>`+(warning?`<div class="alert">${esc(warning)}</div>`:'')+`<div class="card"><div class="label">Liverpool Street · live Metropolitan trains</div>${boardHtml}</div><div class="card"><div class="label">Forecast visibility</div><p class="sub">Liverpool Street ${live.l?.length||0} · Baker Street ${live.b?.filter(isUx).length||0} Uxbridge · Harrow ${live.h?.filter(isUx).length||0} Uxbridge · Individual timetable journeys ${timetableCount}. These are different sources and may not match exactly.</p></div>`;
- let diagnostics=`${example?'DEMONSTRATION DATA\n':'LIVE TF L DATA\n'}Updated: ${fmt(now)} UK time\n`;
- for(const [a,b] of PAIRS){const v=tt[a+b];diagnostics+=`${a.toUpperCase()}→${b.toUpperCase()}: ${v?.trips?.length||0} timed journeys${v?.reason?' · '+v.reason:''}\n`}
- diagnostics+=`Possible journeys found: ${p.paths.length}\n`+ (problems.length?'Errors: '+problems.join(' | '):'Station requests completed.');
- $('diagnostics').textContent=diagnostics;
- $('mode').textContent=example?'EXAMPLE':problems.length?'PARTIAL DATA':'LIVE + TIMETABLE';
- $('messages').innerHTML=problems.length?`<div class="alert">Some data was unavailable: ${esc(problems.join(' · '))}. Results may be incomplete.</div>`:'';
- $('status').textContent=(example?'Illustrative comparison · no real departures':`Updated ${fmt(now)} · refreshes every 30 sec while open · ${timetableCount} timed journeys`);
-}
-async function refresh(){if(inFlight)return;mode='live';inFlight=true;$('refresh').disabled=true;$('status').textContent='Fetching live trains and official timetables…';
- const now=Date.now(), problems=[];try{
-  const [rawResults,ttRaw]=await Promise.all([Promise.allSettled(Object.entries(S).map(([key,id])=>fetchJSON('/StopPoint/'+id+'/Arrivals'))),loadTimetables(now)]);
-  const live={};Object.keys(S).forEach((key,i)=>{const r=rawResults[i];if(r.status==='fulfilled')live[key]=arrivals(r.value);else{live[key]=[];problems.push(key+': '+(r.reason?.message||'fetch failed'))}});
-  const tt={};const day=londonParts(new Date(now)).weekday;
-  PAIRS.forEach(([a,b])=>{let v=ttRaw[a+b];if(v?.data)tt[a+b]=timetableDecode(v.data,a,b,now,day);else{tt[a+b]={trips:[],reason:v?.error||'No response'};problems.push(a+'→'+b+': '+tt[a+b].reason)}});
-  render({live,tt,now,problems,example:false});
- }catch(e){$('mode').textContent='OFFLINE';$('status').textContent='Could not refresh';$('messages').innerHTML='<div class="alert">'+esc(e.message)+'</div>';if(!state)$('main').innerHTML='<div class="card">No verified journey information available. Check station boards.</div>'}
- finally{inFlight=false;$('refresh').disabled=false}
-}
-function demo(){mode='sample';const now=Date.now(),start=now+ms(3);function leg(from,to,at,dur,source='live+scheduled',train='',platform=''){return {from,to,depart:at,arrive:at+ms(dur),duration:dur,source,train,platform}}
- const live={l:[{at:start,dest:'Chesham',platform:'Westbound · Platform 2'},{at:start+ms(8),dest:'Uxbridge',platform:'Westbound · Platform 2'}],b:[{at:start+ms(20),dest:'Uxbridge'}],h:[{at:start+ms(43),dest:'Uxbridge'}],u:[]};
- const tt={lb:{trips:[leg('l','b',start,15,'live+scheduled','Chesham','Platform 2')]},lh:{trips:[leg('l','h',start,36,'live+scheduled','Chesham','Platform 2')]},lu:{trips:[leg('l','u',start+ms(8),56,'live+scheduled','Uxbridge','Platform 2')]},bu:{trips:[leg('b','u',start+ms(20),41,'live+scheduled','Uxbridge')]},hu:{trips:[leg('h','u',start+ms(43),18,'scheduled','Uxbridge')]}};
- // Use the actual route engine against synthetic timetable trips.
- const all={};for(const [key,v]of Object.entries(tt))all[key]={trips:v.trips.map(x=>({...x,source:'scheduled'}))};
- render({now,live,tt:all,problems:[],example:true});$('status').textContent='Sample timetable data only · press Refresh now to fetch TfL';
-}
-$('refresh').addEventListener('click',refresh);$('sample').addEventListener('click',demo);
-$('save').addEventListener('click',()=>{for(const f of FIELDS)localStorage.setItem('met_home_v04_'+f,f==='includeScheduled'?$(f).checked:$(f).value);if(state)render(state);});
-window.addEventListener('focus',()=>{if(mode==='live')refresh()});setInterval(()=>{if(mode==='live'&&document.visibilityState==='visible')refresh()},30000);refresh();
+async function refresh(){if(active)return;active=true;demoMode=false;$('refresh').disabled=true;$('status').textContent='Checking live vehicle identities and timetables…';const now=Date.now(),errors=[];
+ try{const [line,stations,ttraw]=await Promise.all([
+  get('/Line/metropolitan/Arrivals',18000).then(data=>({data})).catch(e=>({error:e.message})),
+  Promise.allSettled(KEY.map(id=>get('/StopPoint/'+S[id]+'/Arrivals'))),
+  timetables(now)]);
+ const map=Object.fromEntries(Object.keys(S).map(id=>[id,[]]));
+ if(line.data){for(const x of parse(line.data)){const key=Object.keys(S).find(k=>S[k].toUpperCase()===x.station.toUpperCase());if(key)map[key].push(x)}}else errors.push('Whole-line predictions: '+line.error);
+ KEY.forEach((k,i)=>{if(stations[i].status==='fulfilled'){const added=parse(stations[i].value).map(x=>({...x,station:S[k]}));map[k]=uniq([...map[k],...added]);}else if(!line.data)errors.push(k+' arrivals: '+stations[i].reason.message)});
+ Object.keys(map).forEach(k=>map[k].sort((a,b)=>a.at-b.at));
+ const tt={};for(const [a,b] of PAIRS){const k=a+b,v=ttraw[k];if(v?.data)tt[k]=decode(v.data,a,b,now);else{tt[k]={trips:[],reason:v?.error||'No timetable'};errors.push('Timetable '+a+'→'+b+': '+tt[k].reason)}}
+ render({map,tt,now,problems:errors,sample:false});
+ }catch(e){$('mode').textContent='OFFLINE';$('status').textContent='Refresh failed';$('messages').innerHTML='<div class="alert">'+esc(e.message)+'</div>';if(!state)$('main').innerHTML='<div class="card">No verified route information. Use station boards.</div>'}
+ finally{active=false;$('refresh').disabled=false}}
+function sample(){demoMode=true;const now=Date.now(),t=now+ms(5);
+ const map=Object.fromEntries(Object.keys(S).map(k=>[k,[]]));
+ const add=(k,at,dest,vehicle)=>map[k].push({at,dest,vehicle,platform:'Westbound platform',location:'Predicted',station:S[k]});
+ add('l',t,'Chesham Underground Station','428');add('l',t+ms(9),'Uxbridge Underground Station','610');
+ add('b',t+ms(15),'Chesham Underground Station','428');add('h',t+ms(38),'Chesham Underground Station','428');
+ add('b',t+ms(19),'Uxbridge Underground Station','612');add('b',t+ms(24),'Uxbridge Underground Station','610');
+ add('h',t+ms(41),'Uxbridge Underground Station','725');add('u',t+ms(60),'Uxbridge Underground Station','725');add('u',t+ms(67),'Uxbridge Underground Station','612');add('u',t+ms(65),'Uxbridge Underground Station','610');
+ const tt={};for(const [a,b] of PAIRS)tt[a+b]={trips:[]};
+ const mk=(from,to,depart,dur,train)=>tt[from+to].trips.push({from,to,depart,arrive:depart+ms(dur),source:'scheduled',train,vehicle:'',stops:[]});
+ mk('l','u',t+ms(9),56,'Uxbridge');mk('b','u',t+ms(19),48,'Uxbridge');mk('h','u',t+ms(41),19,'Uxbridge');
+ render({map,tt,now,problems:[],sample:true});}
+$('refresh').onclick=refresh;$('sample').onclick=sample;$('save').onclick=()=>{for(const f of FIELDS)localStorage.setItem('met_home_v06_'+f,f==='includeScheduled'?$(f).checked:$(f).value);if(state)render(state);};
+setInterval(()=>{if(!demoMode&&!document.hidden)refresh()},30000);
+refresh();
 </script></body></html>
